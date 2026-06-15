@@ -15,7 +15,7 @@
 }
 
 .genero-titulo {
-  font-family: var(--font-prata);
+  font-family: var(--font);
   font-size: 28px;
   font-weight: var(--font-weight-normal);
   line-height: 38px;

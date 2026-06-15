@@ -1,9 +1,11 @@
 <section>
-    <button class="favorito-btn" (click)="alternarFavorito()">
-        <span>{{ jogo().favorito ? '\u2764' : '\u2661'}}</span>
-    </button>
-    <div class="imagem">
-        <img [src]="jogo().imagem" [alt]="jogo().nome">
+    <div class="jogo-img-btn">
+        <div class="imagem">
+            <img [src]="jogo().imagem" [alt]="jogo().nome">
+        </div>
+        <button class="favorito-btn" (click)="alternarFavorito()">
+            <span>{{ jogo().favorito ? '\u2764 ' : '\u2661'}}</span>
+        </button>
     </div>
     <div class="info-jogo">
         <h2 class="texto-h2">{{jogo().nome}}</h2>

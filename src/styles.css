@@ -1,6 +1,5 @@
 :root {
   --font-montserrat: 'Montserrat', sans-serif;
-  --font-prata: 'Prata', serif;
   --color-primaria: #ffff;
   --color-secundaria: #1C45BE;
   --color-terciaria: rgb(182, 182, 182);
@@ -9,22 +8,10 @@
   --font-weight-bold: 700;
 }
 
-.texto-titulo {
-  font-family: var(--font-prata);
-  font-size: 40px;
-  font-weight: var(--font-weight-normal);
-  line-height: 72px;
-  text-align: center;
-  color: var(--color-primaria);
-}
-.linha-destaque {
-  display: block;
-  margin: 0 auto;
-}
-
 body, html{
     margin: 0;
     padding: 0;
+    font-family: var(--font-montserrat);
 }
 
 body{

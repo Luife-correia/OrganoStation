@@ -27,7 +27,7 @@ export class ListaJogos implements OnInit {
     this.generos = [
       {
         id: "action-adventure",
-        value: "Action-adventure",
+        value: "Action Adventure",
         jogos: this.jogosPorGenero.get("action-adventure") ?? []
       },
       {
@@ -62,7 +62,7 @@ export class ListaJogos implements OnInit {
       },
       {
         id: "fps",
-        value: "First-person shooter",
+        value: "First Person Shooter",
         jogos: this.jogosPorGenero.get("fps") ?? []
       }
     ]
