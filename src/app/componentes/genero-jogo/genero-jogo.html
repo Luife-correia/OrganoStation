@@ -1,7 +1,10 @@
 <section class="generos">
-    <h3 class="genero-titulo">
-        {{ genero().value }}
-    </h3>
+    <div class="genero-titulo-todos">
+        <h3 class="genero-titulo">
+            {{ genero().value }}
+        </h3>
+        <a class="ver-todos">Ver Todos</a>
+    </div>
     <div class="jogos-genero">
         @if (genero().jogos.length === 0) {
         <div class="texto-sem-jogos">
