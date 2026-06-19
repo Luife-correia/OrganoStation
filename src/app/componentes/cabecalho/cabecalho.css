@@ -1,7 +1,7 @@
 .background{
         background-image: url(/banner.png);
         background-position:right;
-        background-size: 70%;
+        background-size: cover;
         background-repeat: no-repeat;
         border-radius: 10px;
         margin: 20px;
