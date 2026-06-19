@@ -7,7 +7,7 @@ import { BarraPesquisa } from "./componentes/barra-pesquisa/barra-pesquisa";
 
 @Component({
   selector: 'app-root',
-  imports: [Cabecalho, Rodape, ListaJogos, Sidebar, BarraPesquisa],
+  imports: [Cabecalho, Rodape, ListaJogos, Sidebar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
