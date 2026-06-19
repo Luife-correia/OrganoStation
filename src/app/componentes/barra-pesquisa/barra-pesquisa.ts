@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Jogo } from '../jogo/jogo';
 import { jogos } from '../../mock-jogos';
@@ -15,6 +15,7 @@ textoPesquisa = '';
 jogosEncontrados: JogoInterface[] = [];
 overlayPesquisaAberto = false;
 overlayFavoritosAberto = false;
+mostrarBotaoTopo = false;
 
 pesquisarJogo() {
   const termo = this.textoPesquisa.toLowerCase().trim();
@@ -44,6 +45,11 @@ abrirFavoritos() {
 fecharOverlays() {
   this.overlayPesquisaAberto = false;
   this.overlayFavoritosAberto = false;
+}
+
+@HostListener('window:scroll')
+aoRolarPagina() {
+  this.mostrarBotaoTopo = window.scrollY > 300;
 }
 
 voltarAoTopo() {

@@ -12,10 +12,12 @@
 
 </section>
 
-
+@if (mostrarBotaoTopo) {
 <button class="voltar-topo" (click)="voltarAoTopo()">
   ↑
 </button>
+
+}
 
 @if (overlayPesquisaAberto) {
 <div class="overlay">
