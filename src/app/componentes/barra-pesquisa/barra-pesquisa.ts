@@ -46,4 +46,11 @@ fecharOverlays() {
   this.overlayFavoritosAberto = false;
 }
 
+voltarAoTopo() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
 }

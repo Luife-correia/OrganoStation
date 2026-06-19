@@ -56,13 +56,26 @@ input, button{
 
 }
 
+.voltar-topo {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 998;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-secundaria);
+  border-radius: 20px;
+  background-color: var(--color-background);
+  color: var(--color-primaria);
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .overlay {
   position: fixed;
   inset: 0;
   z-index: 999;
-
   background-color: rgba(0, 0, 0, 0.75);
-
   display: flex;
   justify-content: center;
   align-items: center;
