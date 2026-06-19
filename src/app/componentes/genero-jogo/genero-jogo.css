@@ -5,6 +5,7 @@
   background-color: var(--color-background);
   margin: 20px;
   border-radius: 5px;
+  scroll-margin-top: 100px;
 }
 
 .genero-titulo-todos{
