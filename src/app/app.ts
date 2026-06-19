@@ -3,10 +3,11 @@ import { Cabecalho } from "./componentes/cabecalho/cabecalho";
 import { Rodape } from "./componentes/rodape/rodape";
 import { ListaJogos } from "./componentes/lista-jogos/lista-jogos";
 import { Sidebar } from "./componentes/sidebar/sidebar";
+import { BarraPesquisa } from "./componentes/barra-pesquisa/barra-pesquisa";
 
 @Component({
   selector: 'app-root',
-  imports: [Cabecalho, Rodape, ListaJogos, Sidebar],
+  imports: [Cabecalho, Rodape, ListaJogos, Sidebar, BarraPesquisa],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
