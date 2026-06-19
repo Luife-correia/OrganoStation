@@ -1,0 +1,22 @@
+.todos-jogos {
+  background-color: var(--color-background);
+  margin: 20px;
+  padding: 32px 50px;
+  border-radius: 5px;
+}
+
+.todos-jogos-titulo h2 {
+  color: var(--color-primaria);
+  font-size: 32px;
+}
+
+.todos-jogos-titulo p {
+  color: var(--color-terciaria);
+  font-size: 18px;
+}
+
+.todos-jogos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

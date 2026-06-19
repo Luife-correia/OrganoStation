@@ -1,1 +1,12 @@
-<p>todos-jogos works!</p>
+<section class="todos-jogos">
+  <div class="todos-jogos-titulo">
+    <h2>Todos os Jogos</h2>
+    <p>Explore todos os clássicos de PlayStation 2 cadastrados.</p>
+  </div>
+
+  <div class="todos-jogos-lista">
+    @for (jogo of jogos; track jogo.nome) {
+      <app-jogo [jogo]="jogo"></app-jogo>
+    }
+  </div>
+</section>

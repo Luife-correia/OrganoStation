@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
-import { ListaJogos } from "../lista-jogos/lista-jogos";
+import { Jogo } from '../jogo/jogo';
+import { jogos } from '../../mock-jogos';
 
 @Component({
   selector: 'app-todos-jogos',
-  imports: [ListaJogos],
+  imports: [Jogo],
   templateUrl: './todos-jogos.html',
   styleUrl: './todos-jogos.css',
 })
-export class TodosJogos {}
+export class TodosJogos {
+    jogos = jogos;
+
+}

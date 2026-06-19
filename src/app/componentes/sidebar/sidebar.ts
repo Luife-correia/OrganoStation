@@ -1,9 +1,9 @@
 import { Component, HostListener } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
-  imports: [RouterLink],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './sidebar.html',
   styleUrl: './sidebar.css',
 })
@@ -15,6 +15,11 @@ export class Sidebar {
 aoRolarPagina() {
   const chegouNoFim =
     window.innerHeight + window.scrollY >= document.body.offsetHeight - 10;
+
+  if (!this.estaNaHome) {
+    this.categoriaAtiva = '';
+    return;
+  }
 
   if (chegouNoFim) {
     this.categoriaAtiva = 'fps';
@@ -48,6 +53,12 @@ aoRolarPagina() {
       }
     }
   }
+}
+
+constructor(private router: Router) {}
+
+get estaNaHome() {
+  return this.router.url.startsWith('/home');
 }
 
 }
