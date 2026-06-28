@@ -14,6 +14,36 @@
     top: 0;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 10px;
+}
+
+.logo img{
+    width: 40px;
+}
+
+
+.logo h1{
+    font-size: 25px;
+    color: var(--color-primaria);
+    letter-spacing: 6%;
+}
+
+
+#s1{
+    color: red;
+}
+
+#s2{
+    color: var(--color-secundaria);
+}
+
+
 .sidebar-menu{
     display: flex;
     flex-direction: column;
@@ -51,6 +81,10 @@
     text-align: left;
 }
 
-.sidebar-img img{
+#i1{
     width: 100px;
+}
+
+#i2{
+    width: 35px;
 }
