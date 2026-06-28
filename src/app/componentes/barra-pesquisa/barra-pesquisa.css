@@ -37,8 +37,8 @@ input, button{
   top: 0;
   height: 50px;
   width: 60px;
-  color: var(--color-secundaria);
-  background-color: var(--color-background);
+  color: var(--color-primaria);
+  background-color: var(--color-secundaria);
   border: none;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;

@@ -53,7 +53,13 @@ header{
     border: 1px solid var(--color-secundaria);
     border-radius: 10px;
     padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
     margin-bottom: 22px;
+}
+
+.header-btn:hover{
+    background-color: black;
 }
 
 .header-image img{
