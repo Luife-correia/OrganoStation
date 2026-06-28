@@ -1,4 +1,32 @@
 .footer{
     text-align: center;
     color: var(--color-primaria);
+    padding: 10px 20px 5px 20px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-links a{
+    transition: color .25s ease, transform .25s ease;
+}
+.footer-links a:hover{
+    transform: translateY(-2px) scale(1.08);
+}
+
+.footer-links svg{
+    fill: var(--color-primaria);
+    width: 45px;
+}
+
+#svg-github:hover{
+    fill: rgb(90, 90, 90);
+}
+
+#svg-linkedin:hover{
+    fill: rgb(10, 102, 194);
 }
