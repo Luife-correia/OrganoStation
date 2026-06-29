@@ -62,6 +62,14 @@
     text-decoration: none;
 }
 
+.sidebar-menu a:hover{
+/*     background-color: rgba(255, 253, 253, 0.062);
+ */
+  background-color: var(--color-hover);
+  border-radius: 8px;
+
+}
+
 .sidebar-menu a.ativo {
   color: var(--color-primaria);
   background-color: var(--color-secundaria);

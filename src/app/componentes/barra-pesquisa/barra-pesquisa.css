@@ -1,27 +1,28 @@
-.secao-principal{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    position: sticky;
-    top: 0%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.493);
+.secao-principal {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.493);
 }
 
-input, button{
-    border: none;
-    outline: none;
+input,
+button {
+  border: none;
+  outline: none;
 }
 
-.barra-pesquisa{
-    position: relative;
-    width: 700px;
+.barra-pesquisa {
+  position: relative;
+  width: 700px;
 }
 
 .barra-pesquisa input {
-  width: 100%;  
+  width: 100%;
   height: 50px;
   color: var(--color-secundaria);
   background-color: var(--color-background);
@@ -33,7 +34,7 @@ input, button{
 
 .barra-pesquisa button {
   position: absolute;
-  left: 100%;              
+  left: 100%;
   top: 0;
   height: 50px;
   width: 60px;
@@ -45,15 +46,19 @@ input, button{
   cursor: pointer;
 }
 
-.favoritos{
-    margin-right: 30px;
-    font-size: 18px;
-    background-color: var(--color-background);
-    color: var(--color-primaria);
-    padding: 15px;
-    border: solid 1px var(--color-secundaria);
-    border-radius: 15px;
+.favoritos {
+  margin-right: 30px;
+  font-size: 18px;
+  background-color: var(--color-background);
+  color: var(--color-primaria);
+  padding: 15px;
+  border: solid 1px var(--color-secundaria);
+  border-radius: 15px;
+  cursor: pointer;
+}
 
+.favoritos:hover{
+  background-color: var(--color-hover);
 }
 
 .voltar-topo {
@@ -81,16 +86,16 @@ input, button{
   align-items: center;
 }
 
-.overlay button{
-    position: sticky;
-    z-index: 2;
-    top: 0%;
-    background-color: transparent;
-    border-radius: 100%;
+.overlay button {
+  position: sticky;
+  z-index: 2;
+  top: 0%;
+  background-color: transparent;
+  border-radius: 100%;
 }
 
-.overlay img{
-    width: 60px;
+.overlay img {
+  width: 60px;
 }
 
 .overlay-conteudo {
@@ -103,8 +108,8 @@ input, button{
   padding: 24px;
 }
 
-.overlay-conteudo p{
-    color: var(--color-primaria);
-    text-align: center;
-    font-size: 18px;
+.overlay-conteudo p {
+  color: var(--color-primaria);
+  text-align: center;
+  font-size: 18px;
 }

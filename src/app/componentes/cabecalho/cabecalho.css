@@ -59,7 +59,7 @@ header{
 }
 
 .header-btn:hover{
-    background-color: black;
+    background-color: var(--color-hover);
 }
 
 .header-image img{
