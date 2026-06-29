@@ -3,7 +3,7 @@
         <h3 class="genero-titulo">
             {{ genero().value }}
         </h3>
-        <a class="ver-todos">Ver Todos</a>
+        <a routerLink="/todos-jogos"  class="ver-todos">Ver Todos</a>
     </div>
     <div class="jogos-genero">
         @if (genero().jogos.length === 0) {

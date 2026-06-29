@@ -113,3 +113,21 @@ button {
   text-align: center;
   font-size: 18px;
 }
+
+.overlay-conteudo::-webkit-scrollbar {
+  width: 10px;
+}
+
+.overlay-conteudo::-webkit-scrollbar-track {
+  background: #05070d;
+  border-radius: 10px;
+}
+
+.overlay-conteudo::-webkit-scrollbar-thumb {
+  background: var(--color-secundaria);
+  border-radius: 10px;
+}
+
+.overlay-conteudo::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hover);
+}

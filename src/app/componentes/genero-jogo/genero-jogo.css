@@ -33,6 +33,11 @@
 .ver-todos{
   font-size: 20px;
   color: var(--color-secundaria);
+  text-decoration: none;
+}
+
+.ver-todos:hover{
+  color: var(--color-primaria);
 }
 
 .texto-sem-jogos img {
