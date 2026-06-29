@@ -132,3 +132,71 @@ button {
 .overlay-conteudo::-webkit-scrollbar-thumb:hover {
   background: var(--color-hover);
 }
+@media (max-width: 900px) {
+  .secao-principal {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .barra-pesquisa {
+    flex: 1;
+    width: auto;
+  }
+
+  .favoritos {
+    margin-right: 0;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .secao-principal {
+    flex-direction: column;
+    align-items: stretch;
+    position: static;
+  }
+
+  .barra-pesquisa {
+    width: 100%;
+    display: flex;
+  }
+
+  .barra-pesquisa input {
+    flex: 1;
+    min-width: 0;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+  }
+
+  .barra-pesquisa button {
+    position: static;
+    flex: 0 0 56px;
+    border-radius: 0 25px 25px 0;
+  }
+
+  .favoritos {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+  }
+
+  .overlay {
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .overlay-conteudo {
+    width: 100%;
+    max-height: calc(100vh - 24px);
+    padding: 16px;
+  }
+
+  .overlay img {
+    width: 48px;
+  }
+
+  .voltar-topo {
+    right: 16px;
+    bottom: 16px;
+  }
+}

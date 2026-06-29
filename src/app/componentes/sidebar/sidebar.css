@@ -96,3 +96,49 @@
 #i2{
     width: 35px;
 }
+@media (max-width: 900px) {
+  .sidebar {
+    width: auto;
+    margin: 12px;
+    padding: 10px;
+    position: static;
+    align-items: stretch;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .sidebar-menu {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 6px;
+  }
+
+  .sidebar-menu a {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: max-content;
+    padding: 12px 14px;
+  }
+
+  .sidebar-img {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .sidebar {
+    margin: 8px;
+  }
+
+  .logo h1 {
+    font-size: 21px;
+  }
+
+  .sidebar-menu a {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}

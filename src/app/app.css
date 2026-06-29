@@ -6,3 +6,13 @@
 .main-content{
   flex: 1;
 }
+
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main-content {
+    min-width: 0;
+  }
+}

@@ -58,3 +58,44 @@
 
 
 
+
+@media (max-width: 900px) {
+  .generos {
+    padding: 0 24px;
+    margin: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .generos {
+    padding: 0 16px 16px;
+    margin: 8px;
+    scroll-margin-top: 16px;
+  }
+
+  .genero-titulo-todos {
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 28px;
+  }
+
+  .genero-titulo {
+    font-size: 22px;
+  }
+
+  .ver-todos {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .jogos-genero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .texto-sem-jogos img {
+    width: min(280px, 80vw);
+    height: auto;
+    aspect-ratio: 7 / 6;
+  }
+}

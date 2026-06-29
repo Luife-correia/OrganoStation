@@ -65,3 +65,66 @@ header{
 .header-image img{
     width: 300px;
 }
+@media (max-width: 900px) {
+  .background {
+    margin: 12px;
+  }
+
+  header {
+    padding: 24px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .header-assets {
+    width: 55%;
+  }
+
+  .header-title {
+    font-size: 42px;
+  }
+
+  .header-paragraph {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .header-image img {
+    width: min(260px, 35vw);
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px;
+  }
+
+  .header-assets {
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .header-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header-btn {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .header-image {
+    align-self: center;
+  }
+
+  .header-image img {
+    width: min(240px, 70vw);
+  }
+}

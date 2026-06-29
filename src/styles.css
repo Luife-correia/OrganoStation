@@ -22,3 +22,16 @@ html{
 body{
   background-color: black;
 }
+
+@media (max-width: 900px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+}

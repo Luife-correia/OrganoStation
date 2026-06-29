@@ -71,3 +71,35 @@ section img {
 section span {
   margin-bottom: 64px;
 }
+@media (max-width: 640px) {
+  section {
+    width: 100%;
+    margin: 0 0 16px;
+  }
+
+  section .info-jogo {
+    width: 100%;
+  }
+
+  section img {
+    width: min(190px, 70vw);
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+  }
+
+  .favorito-btn {
+    top: 26px;
+    left: auto;
+    right: 8px;
+  }
+
+  .texto-h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .texto-h3 {
+    font-size: 15px;
+  }
+}
