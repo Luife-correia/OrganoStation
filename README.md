@@ -38,8 +38,6 @@ O projeto foi desenvolvido com foco em componentização, organização de dados
 - TypeScript
 - HTML
 - CSS
-- RxJS
-- Vitest
 - Prettier
 
 ## Estrutura do projeto
